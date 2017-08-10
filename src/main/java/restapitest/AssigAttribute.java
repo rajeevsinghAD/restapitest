@@ -24,4 +24,11 @@ public class AssigAttribute {
 		this.created_at = created_at;
 	}
 
+	@Override
+	public String toString() {
+		return "AssigAttribute [title=" + title + ", created_at=" + created_at + "]";
+	}
+	
+	
+
 }

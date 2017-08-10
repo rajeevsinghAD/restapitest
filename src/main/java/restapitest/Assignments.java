@@ -1,5 +1,7 @@
 package restapitest;
 
+import java.util.Arrays;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -23,4 +25,9 @@ public class Assignments {
 		this.data = data;
 	}
 
+	@Override
+	public String toString() {
+		return "Assignments [links=" + links + ", data=" + Arrays.toString(data) + "]";
+	}
+	
 }

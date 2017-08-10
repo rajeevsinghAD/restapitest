@@ -23,6 +23,12 @@ public class Links {
 	public void setTeaching(String teaching) {
 		this.teaching = teaching;
 	}
+
+	@Override
+	public String toString() {
+		return "Links [self=" + self + ", teaching=" + teaching + "]";
+	}
+	
 	
 	
 	

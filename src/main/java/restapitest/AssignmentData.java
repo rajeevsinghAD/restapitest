@@ -28,6 +28,11 @@ public class AssignmentData {
 		this.attributes = attributes;
 	}
 	
+	@Override
+	public String toString() {
+		return "AssignmentData [type=" + type + ", id=" + id + ", attributes=" + attributes + "]";
+	}
+	
 	
 	
 }
